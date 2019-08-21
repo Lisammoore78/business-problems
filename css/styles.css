@@ -1,0 +1,140 @@
+body{
+    background-color: rgb(120, 120, 201);
+    margin: 0%;
+}
+h1{
+    font-family: 'Noto Serif', serif;
+    font-size: 100px;
+    text-align: center;
+    margin: 0%;
+    text-decoration-line: underline;
+    text-decoration-color:purple;
+}
+h2{
+    font-size: 60px;
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-color: blueviolet;
+}
+h3{
+    font-family: 'Noto Serif', serif;
+    font-size: 100px;
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: blueviolet;
+}
+h4{
+    font-size: 80px;
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-color: purple;
+}
+h5{
+    font-family: 'Noto Serif', serif;
+    font-size: 100px;
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-color: blueviolet;
+    margin: 0%;
+
+}
+h6{
+    font-family: 'Noto Serif', serif;
+    font-size: 100px;
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-color: blueviolet;
+    margin: 0%;
+
+}
+p{
+    font-size: 50px;
+    text-align: center;
+    margin: 0%;
+}
+#firstpic{
+    width:100%;
+    height:10%;
+
+}
+#secondpic{
+    width:750px;
+    height: 350px;
+
+}
+#thirdpic{
+    width: 720px;
+    height: 250px;
+}
+#fifthpic{
+    width:100%;
+    height:15%;
+}
+
+.header{
+    display: block;
+    width: 100%;
+    min-height: 250px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+   background-image: url("../images/beach.jpg");
+}
+.header2{
+    display:block;
+    width: 100%;
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../images/beach2.jpg");
+}
+.header3{
+    display:block;
+    width: 100%;
+    min-height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image:url("../images/beach3.jpg");
+}
+.header4{
+    display:block;
+    width: 100%;
+    min-height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../images/beach4.jpg");
+
+}
+.content{
+    display:block;
+    float: center;
+    width:50%;
+    background-color: palegoldenrod;
+    min-height: 150px;
+}
+ul{
+    list-style: none;
+    background-color: azure;
+    top:0;
+    position:fixed;
+    width:100%;
+    margin:0;
+}
+ul li a{
+    display: block;
+    margin: 0;
+    color: wheat;
+    font-size: 25px;
+    block-size: 0%;
+}
+    ul li{
+float: left;
+width:25%;
+text-decoration: nine;
+text-align: center;
+
+}
+li a:hover{
+background-color: rgb(156, 98, 11);
+color:yellow;}
