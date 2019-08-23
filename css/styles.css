@@ -13,8 +13,6 @@ h1{
 h2{
     font-size: 60px;
     text-align: center;
-    text-decoration-line: underline;
-    text-decoration-color: blueviolet;
 }
 h3{
     font-family: 'Noto Serif', serif;
@@ -23,9 +21,10 @@ h3{
     text-decoration-line: underline;
     text-decoration-style: solid;
     text-decoration-color: blueviolet;
+    margin: 0;
 }
 h4{
-    font-size: 80px;
+    font-size: 60px;
     text-align: center;
     text-decoration-line: underline;
     text-decoration-color: purple;
@@ -52,64 +51,97 @@ p{
     font-size: 50px;
     text-align: center;
     margin: 0%;
+
 }
-#firstpic{
+#intro{
+    display:block;
     width:100%;
-    height:10%;
+    background-color: palegoldenrod;
+
+}
+#intro2{
+    display:block;
+    width:100%;
+    background-color: palegoldenrod;
+}
+#intro3{
+    display: block;
+    width: 100%;
+    font-size: 50px;
+    text-decoration-style: solid;
+}
+#intro4{
+    display: block;
+    width: 100%;
+    font-size: 50px;
+}
+#intro5{
+    display: block;
+    width: 100%;
+    font-size: 50px;
+}
+
+#firstpic{
+    width:50%;
+    height:250px;
+    float: left;
 
 }
 #secondpic{
-    width:750px;
-    height: 350px;
-
+    width: 50%;
+    height:250px;
+    float: right;
 }
 #thirdpic{
-    width: 720px;
-    height: 250px;
-}
-#fifthpic{
     width:100%;
-    height:15%;
+    height:250px;
+    margin: 0%;
+    float: right;
+    
 }
 
 .header{
-    display: block;
+    display:block;
     width: 100%;
-    min-height: 250px;
+    min-height: 350px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat; 
-   background-image: url("../images/beach.jpg");
+    background-image: url("../images/oceanh1.gif");
 }
 .header2{
     display:block;
     width: 100%;
-    height: 250px;
+    min-height: 350px;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("../images/beach2.jpg");
+    background-image: url("../images/oceanh2.gif");
 }
 .header3{
     display:block;
     width: 100%;
-    min-height: 250px;
+    min-height: 350px;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image:url("../images/beach3.jpg");
+    background-image:url("../images/oceanh3.gif");
 }
 .header4{
     display:block;
     width: 100%;
     min-height: 250px;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("../images/beach4.jpg");
+    background-image: url("../images/ocean.gif");
 
 }
 .content{
+    
     display:block;
     float: center;
-    width:50%;
+    width:100%;
     background-color: palegoldenrod;
     min-height: 150px;
 }
@@ -117,7 +149,7 @@ ul{
     list-style: none;
     background-color: azure;
     top:0;
-    position:fixed;
+    position: fixed;
     width:100%;
     margin:0;
 }
