@@ -74,6 +74,7 @@ p{
     display: block;
     width: 100%;
     font-size: 50px;
+    background-color: palegoldenrod;
 }
 #intro5{
     display: block;
@@ -130,11 +131,12 @@ p{
 .header4{
     display:block;
     width: 100%;
-    min-height: 250px;
+    min-height: 350px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-image: url("../images/ocean.gif");
+
 
 }
 .content{
